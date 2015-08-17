@@ -1,0 +1,65 @@
+/* Fonts*/
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #747704;
+}
+
+h1{
+	font-weight: 100;
+	font-size: 48px;
+}
+
+h3{
+	letter-spacing: 2px;
+}
+
+.text-thin{
+	font-weight: 100;
+	font-kerning: auto;
+}
+
+/* Headings */
+.header{
+	padding: 20px 0 0 0;
+}
+.sub-header{
+	margin: 30px 0 20px 0;
+	color: #bbb;
+	font-size: 36px;
+}
+
+.logo{
+	height: 100px;
+}
+
+/* Images */
+.img-hero{
+	width: 1170px;
+}
+
+.img-work{
+	height: 200px;
+	overflow: hidden;
+}
+
+.img-work img{
+	min-width: 100%;
+	min-height: 100%;
+}
+
+/* Misc */
+.copyright{
+	margin: 35px 0 10px 0;
+}
+
+hr{
+	border-top: 4px solid #bbb;
+}
+
+/* Align center when mobile */
+@media (max-width: 767px) {
+	.title {
+		text-align: center;
+	}
+}
